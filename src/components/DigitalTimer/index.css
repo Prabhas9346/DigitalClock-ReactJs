@@ -1,0 +1,111 @@
+.clockBg {
+  background-color: #cffcf1;
+  display: flex;
+  text-align: center;
+  padding: 1vw;
+
+  flex-direction: column;
+  height: 100vh;
+}
+.clockBgSub {
+  display: flex;
+  justify-content: space-around;
+
+  height: 100vh;
+}
+@media screen and (max-width: 576px) {
+  .clockBgSub {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .clockBgSub2 {
+    width: 90vw;
+  }
+}
+
+.clockBgSub2 {
+  display: flex;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.clockTimer {
+  background-color: #defafe;
+  padding: 4vw;
+
+  border-radius: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  font-size: 4vw;
+  font-weight: bold;
+  margin: 0%;
+  color: #00d9f5;
+}
+.Runnning {
+  font-weight: bold;
+  font-size: 1.5vw;
+  margin: 0.5vw;
+}
+img {
+  width: 2vw;
+  height: 2vw;
+  margin: 1vw;
+}
+.clock2BgSub {
+  display: flex;
+}
+
+.clockBgSub1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.playBtn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vw;
+  font-size: 2vw;
+  background-color: transparent;
+}
+.timerSetBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.addBtn {
+  width: 2vw;
+  height: 2vw;
+  border: 0px;
+  outline: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 2vw;
+  cursor: pointer;
+}
+.setTime {
+  background-color: #37ffcd;
+  padding: 0.5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-weight: bold;
+  background-size: cover;
+  border-radius: 5%;
+}
+
+.seter {
+  font-size: 1vw;
+  margin: 5%;
+}
